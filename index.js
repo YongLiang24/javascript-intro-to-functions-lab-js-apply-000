@@ -23,7 +23,7 @@ function sayHiToGrandma(string){
     var result = "I can\'t hear you!";
     return result;
   }
-  else if (string === string.toLowerCase())
+  if (string === string.toLowerCase())
   {
      var result1 ="YES INDEED!";
     return result1;
